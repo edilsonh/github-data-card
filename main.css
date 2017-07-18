@@ -1,4 +1,45 @@
+#title-name {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 35px;
+}
+
+#content-container {
+  display: flex;
+  justify-content: space-around;
+  background: #F3F3F3;
+}
+
 img {
-  width: 5px;
-  height: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+#avatar {
+  align-self: center;
+}
+
+p {
+  color: #74ABAB;
+}
+
+span {
+  color: gray;
+}
+
+#story {
+  width: 200px;
+}
+
+#story-body {
+  border-left: 1px solid lightgrey;
+  color: grey;
+  padding-left: 15px;
 }
